@@ -1,0 +1,407 @@
+p{
+    font-weight: 400;
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 22px;
+}
+
+.container{
+    display: inline-block;
+    width: 1140px;
+    text-align: left;
+}
+
+@media screen and (max-width: 1140px)
+{
+    .container
+    {
+        width: 1022px;
+    }
+}
+@media screen and (max-width: 1024px)
+{
+    .container
+    {
+        width: 898px;
+    }    
+}
+@media screen and (max-width: 900px)
+{
+    .container
+    {
+        width: 766px;
+    }    
+    .nav > li > a
+    {
+        padding: 15px 10px; 
+    }
+}
+@media screen and (max-width: 768px)
+{
+    .container
+    {
+        width: 678px;
+    }   
+    .nav
+    {
+        display: none;
+        position: absolute;
+        background: #000;
+        z-index: 999;
+        top:100px;
+        left:auto;
+        right: 0;
+        width: 30%;
+    }
+    .nav > li
+    {
+        float: none;
+        text-align: center;
+    }
+    .sub-nav{
+        position: relative;
+        top:-10px;
+    }
+    .m-nav{
+       display: inline-block;
+       margin: 10px 0;
+    }
+    
+    .m-nav img{
+        width: 30px;
+    }
+    
+    .h-contact .h-mail
+    {
+        width: 35%;
+    }
+
+    .h-contact .h-con-no{
+        width: 65%;
+    }
+    /*===slider===*/
+    .b-col1 img{
+        width: 100px;
+    }
+    .b-col2 img{
+        width: 127px;
+    }
+    .b-col3 img{
+        width: 96px;
+    }
+    .b-col-in a{
+        font-size: 18px
+    }
+    .e-pro img{
+        width: 100%;
+    }
+    /*======content-====*/
+    .m-col1{
+       float: none;
+       display: block;
+       width: 100%;
+    }
+    .m-col2{
+        float: none;
+        display: block;
+        width: 100%;
+           margin-top: 20px;
+ }
+    .pickup-col1{
+        width: 80px;
+    }
+    .pickup-col2{
+        width: 45%;
+    }
+    
+    .in-hazard{
+        margin-left: 0px;
+        padding-left: 0px;
+        border-left: solid 0px #187c41;
+    }
+    ul.hazard-list{
+    margin: 30px 0 30px 0;
+}
+    ul.hazard-list li{
+        width: 33.33%;
+        margin: 10px 0;
+    }
+    ul.hazard-list li a{
+        padding: 0 5px;
+    }
+    .f-ul li{
+        width: 33.33%;
+    }
+    .f-ul li a{
+        margin: 10px 0;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 680px)
+{
+    .container
+    {
+        width: 540px;
+    }
+    .mail
+    {
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .h-inner p{
+        font-size: 12px;
+        font-weight: 700;
+    }
+     .nav
+    {
+        top:98px;
+    }
+    .popup-inner{
+        width: 400px;
+    }
+    .e-list li{
+        float: left;
+        width: 100%;
+        list-style: circle;
+        list-style-position: inside;
+        margin: 5px 0;
+    }
+    .f-ul li{
+        width: 50%;
+    }
+    .f-ul li a{
+        margin: 8px 0;
+        font-size: 13px;
+    }
+}    
+@media screen and (max-width: 544px)
+{
+    .container
+    {
+        width: 500px;
+    }    
+    .h-menu .m-logo
+    {
+        width: 30%;
+    }
+    .h-menu .m-menu
+    {
+        width: 70%;
+    }
+    .nav
+    {
+        top:115px;
+        left:0;
+        width: 100%;
+    }
+    .f-link{
+        float: none;
+        width: 100%;
+    }   
+    .f-aboutMinistry {
+        float: none;
+        width: 100%;
+    }
+    .f-ul li{
+        width: 33.33%;
+    }
+    .f-ul{
+        border-bottom: solid 1px #999;
+    }
+
+}
+@media screen and (max-width: 504px)
+{
+    .container
+    {
+        width: 480px;
+    }
+    .nav
+    {
+        top:112px;
+    }
+}
+@media screen and (max-width: 484px)
+{
+    .container
+    {
+        width: 420px;
+    }    
+    .h-menu .m-logo
+    {
+        width: 35%;
+    }
+    .h-menu .m-menu
+    {
+        width: 65%;
+    }
+        /*===slider===*/
+    .b-col1 img{
+        width: 70px;
+    }
+    .b-col2 img{
+        width: 87px;
+    }
+    .b-col3 img{
+        width: 66px;
+    }
+    .b-col-in a{
+        font-size: 15px
+    }
+    .banner-intro{
+       padding: 1em 0 1em 0;
+    }
+    .popup-inner{
+        width: 300px;
+    }
+    .tbl-from{
+        display: inline-block;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .tbl-from tr{
+        display: block;
+    }
+    .tbl-from tr td:first-child{
+        display: block;
+        width: 100%;
+    }
+    .tbl-from tr td:last-child{
+        width: 100%;
+        display: block;
+    }
+    .tbl-from tr td{
+        display: block;
+    }
+    .tbl-from tr td input[type="email"],
+    .tbl-from tr td input[type="text"]
+    {
+        width:240px; 
+    }
+    .tbl-from tr td input[type="submit"]{
+    padding: 6px 10px;
+    border: solid 1px #187c41;
+    background: #156b38;
+    color:#fff;
+    transition: all 0.1s;
+    margin-left: -110;
+}
+}
+@media screen and (max-width: 424px)
+{
+    .container
+    {
+        width: 380px;
+    }    
+}
+@media screen and (max-width: 384px)
+{
+    .container
+    {
+        width: 320px;
+    }
+    .h-menu .m-logo
+    {
+        width: 42%;
+    }
+    .h-menu .m-menu
+    {
+        width: 58%;
+    }
+            /*===slider===*/
+    .b-col1 img{
+        width: 40px;
+    }
+    .b-col2 img{
+        width: 47px;
+    }
+    .b-col3 img{
+        width: 36px;
+    }
+    .b-col-in a{
+        font-size: 13px
+    }
+    .b-col-in{
+       display: block;
+        margin-top: 10px;
+    }
+    .popup-inner{
+        width: 220px;
+    }
+    .tbl-from tr td input[type="email"],
+    .tbl-from tr td input[type="text"],
+    .tbl-from tr td textArea
+    {
+        width:150px; 
+    }
+    ul.hazard-list{
+        margin: 30px 0 20px 0;
+    }
+    ul.hazard-list li{
+        width: 50%;
+        margin: 10px 0;
+    }
+        .f-ul li{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 324px)
+{
+    .container
+    {
+        width: 280px;
+    }    
+        .h-menu .m-logo
+    {
+        width: 50%;
+    }
+    .h-menu .m-menu
+    {
+        width: 50%;
+    }
+        .h-contact .h-mail
+    {
+        display: none;
+    }
+    .h-contact .h-con-no{
+        width: 100%;
+    }
+     .h-inner p{
+        font-size: 10px;
+    }
+    .nav
+    {
+        top:95px;
+    }
+}
+@media screen and (max-width: 284px)
+{
+    .container
+    {
+        width: 240px;
+    }
+    
+     .h-inner p{
+        font-size: 8px;
+    }
+        .nav
+    {
+        top:92px;
+    }
+}
+@media screen and (max-width: 244px)
+{
+    .container
+    {
+        width: 220px;
+    }    
+}
+@media screen and (max-width: 224px)
+{
+    .container
+    {
+        width: 200px;
+        overflow:auto;
+    }    
+}
